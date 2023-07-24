@@ -1,0 +1,78 @@
+var clientId="3ngi5bxf7kyp6kjeudi8p747ti7zztcb";
+
+//Change this to true to show the signup option
+//signing up will create an app user with the name and email as the external_app_user_id = the email needs to be unique!
+var showSignUp = true;
+
+//Add here the ids of any group you want the new user added to on creation
+//This will help if you load a specific folder for the user on login
+//comma separated liist like this ["12345676","123456789"]
+var newUserGroupIds = ["8869166911"];
+//Add here any folderIds you want the new user added to on creation (currently as editor)
+////This will help if you load a specific folder for the user on login
+//comma separated liist like this ["12345676","123456789"]
+var newUserFolderIds=["154875143317"];
+
+//Navigation
+var navigation=[
+
+  {
+      "page":"readme.html",
+      "title":"README"
+  },
+
+  {
+      "page":"folder2.html",
+      "title":"FOLDER",
+      "boxId":"0"
+  },
+  {
+    "page":"tree_local.html",
+    "title":"TREEVIEW",
+    "boxId":"0"
+},
+  {
+      "page":"preview1.html",
+      "title":"PREVIEW",
+      "boxId":"880330259583"
+  },
+  {
+    //Templates - https://peter-demo.box.com/s/6uu9k93otq9f53s8stsm4tusbxai48aq
+    "page":"signrequest.html",
+    "title":"BOX SIGN",
+    "boxId":"130954787289",
+    "targetFolderId":"130954426794",
+  },
+
+  {
+      "page":"uploader.html",
+      "title":"UPLOADER",
+      "boxId":"0"
+  },
+  {
+    "page":"zipdownload.html",
+    "title":"ZIP UPLOADER",
+    "boxId":"0"
+},
+
+  {
+      "page":"mdq.html",
+      "title":"METADATA VIEW",
+      "boxId":"63843176586",
+      "eid":"47757585",
+      "template":"case",
+      "columns":"name,caseStatus,documentType,region",
+      "filters":"caseStatus,reqion,documentType,name,caseDueDate",
+      "caseid":"A122,A123,A141,A188,B567,C111,D1233,C001,P001,H117",
+      "name":"Arthur Dent,Rick Deckard,Ralph Endymion,Hari Seldon,Salvor Hardin,William Mandella"
+  },
+  {
+      "page":"map_folder.html",
+      "title":"MAP",
+      "boxId":"81642016647",
+      "latitude":51.152899277243236,
+      "longitude":0.8391592693839822,
+      "zoomLevel":10
+    }
+
+];
