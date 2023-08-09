@@ -38,7 +38,7 @@ var navigation=[
       "boxId":"216521896990",
       "eid":"1059715940",
       "template":"MetadataTemplateName",
-      "columns":"Loan ID,Cost,Loan Date,Gender of Applicant",
-      "filters":"category, cost, loanDate, genderOfApplicant"
+      "columns":"category,cost,loanDate,genderOfApplicant",
+      "filters":"category, cost, loanDate, genderOfApplicant",
   }
 ];
