@@ -1,0 +1,37 @@
+var clientId="3ngi5bxf7kyp6kjeudi8p747ti7zztcb";
+
+//Change this to true to show the signup option
+//signing up will create an app user with the name and email as the external_app_user_id = the email needs to be unique!
+var showSignUp = true;
+
+//Add here the ids of any group you want the new user added to on creation
+//This will help if you load a specific folder for the user on login
+//comma separated liist like this ["12345676","123456789"]
+var newUserGroupIds = ["8869166911"];
+//Add here any folderIds you want the new user added to on creation (currently as editor)
+////This will help if you load a specific folder for the user on login
+//comma separated liist like this ["12345676","123456789"]
+var newUserFolderIds=["154875143317"];
+
+//Navigation
+var navigation=[
+
+  {
+      "page":"landing.html",
+      "title":"Home"
+  },
+  {
+      "page":"folder2.html",
+      "title":"Folder Layout",
+      "boxId":"221282751853"
+  },
+  {
+      "page":"mdq.html",
+      "title":"Review Metadata",
+      "boxId":"221282751853",
+      "eid":"1059715940",
+      "template":"tenantDocumentation",
+      "columns":"docType,propertyAddress,propertyCity,propertyState,tenantStatus",
+      "filters":"docType,tenantStatus"
+  }
+];
